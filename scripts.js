@@ -1,3 +1,7 @@
+let num1;
+let num2;
+let operator;
+
 function add(num1,num2) {
     return num1 + num2;
 }
@@ -18,4 +22,5 @@ console.log(add(4,5));
 console.log(subract(4,5));
 console.log(multiply(4,5));
 console.log(divide(4,5));
+
 
