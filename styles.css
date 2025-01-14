@@ -1,0 +1,54 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#calculator-Body {
+    height: 500px;
+    width: 400px;
+    background-color: blueviolet;
+    opacity: .5;
+    padding: .75rem;
+}
+
+#calculator-Display {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#display-Text {
+    width: 100%;
+    padding: .25rem;
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+#digits {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+
+}
+
+.digit-Containers {
+    width: 33%;
+    display: inline;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    border: solid 1px black;
+    border-radius: .5rem;
+    margin: 3px;
+}
+
+#clear {
+    font-size: 1.75rem;
+}
